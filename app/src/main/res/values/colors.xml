@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1281CE</color>
+    <color name="colorPrimaryDark">#015195</color>
+    <color name="colorAccent">#4285F4</color>
+
+    <color name="colorHomeTitle">#015195</color>
+    <color name="colorHomeVersion">#1281CE</color>
+    <color name="colorHomeCode">#616161</color>
+    <color name="nav_bar_background">#015195</color>
+    <color name="colorNavBarTitle">#ffffff</color>
+    <color name="colorNavBarSubTitle">#1281CE</color>
+</resources>

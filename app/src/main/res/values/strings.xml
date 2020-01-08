@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">android-varejo</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Nome Completo</string>
+    <string name="nav_header_subtitle">nome@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="home_title">DEV ANDROID</string>
+    <string name="app_version">Version (%s)</string>
+    <string name="app_code">version_code (%d)</string>
+    <string name="menu_product">Produtos</string>
+    <string name="menu_product_list">Produtos</string>
+    <string name="item_not_found">Nenhum item encontrado</string>
+    <string name="see_installment">ver parcelamentos</string>
+    <string name="buy">Comprar</string>
+    <string name="features">Características</string>
+    <string name="ratings">Avaliações</string>
+    <string name="total_ratings">(750 avaliações)</string>
+    <string name="label_last_comment">Último comentário:</string>
+    <string name="label_related">Quem viu comprou</string>
+
+
+</resources>

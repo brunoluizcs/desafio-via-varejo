@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/container"
+        app:cardBackgroundColor="#ffffff"
+        app:cardUseCompatPadding="true"
+        app:cardPreventCornerOverlap="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/productImageView"
+                android:src="@mipmap/ic_launcher"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                android:layout_width="130dp"
+                android:layout_height="130dp"/>
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                tools:text="Smart TV LED 43\ Full HD LG 43LK5750PSA ..."
+                android:textSize="12sp"
+                android:textColor="#015195"
+                android:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:id="@+id/oldValueTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                tools:text="R$ 1439,00"
+                android:textSize="10sp"
+                android:textColor="#616161"
+                android:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:id="@+id/currentValueTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                tools:text="R$ 1399,00"
+                android:textSize="12sp"
+                android:textColor="#015195"
+                android:fontFamily="sans-serif-medium"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
